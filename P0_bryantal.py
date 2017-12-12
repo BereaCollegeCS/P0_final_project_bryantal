@@ -106,10 +106,10 @@ class Nim_Game():
             if total == 0:
                 print("You win!")
                 break
-        total = nim_gonna_win(total)
-        if total == 0:
-            print("You've lost.")
-            print("Thanks for playing, try again.")
+            total = nim_gonna_win(total)
+            if total == 0:
+                print("You've lost.")
+                print("Thanks for playing, try again.")
 
 
 
