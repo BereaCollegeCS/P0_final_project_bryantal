@@ -196,6 +196,7 @@ def main():
     print("The computer will then say in the console how many balls it wants to take away.")
     print("Click the balls on screen to take away its amount of balls.")
     g.game_turns()
+    wn.mainloop()
 
 if __name__ == "__main__":
     main()
